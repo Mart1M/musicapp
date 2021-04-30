@@ -1,19 +1,19 @@
 <template>
   <div class="overflow-x-hidden">
     <div class="text-white hidden sm:flex flex-col w-2/12 fixed h-screen space-y-10 mt-40 px-8">
-      <div class="flex items-center space-x-0.5 font-bold -m-1.5 ">
+      <div class="flex items-center space-x-0.5 font-bold -m-1.5">
         <img src="../assets/icons/home.svg" alt="">
         <a href="">Home</a>
       </div>
-      <div class="flex items-center space-x-2 font-bold">
+      <div class="flex items-center space-x-2 font-bold menuitems">
         <img src="../assets/icons/headphones.svg" alt="">
         <a href="" class="text-inactive">Playlists</a>
       </div>
-      <div class="flex items-center space-x-2 font-bold">
+      <div class="flex items-center space-x-2 font-bold menuitems">
         <img src="../assets/icons/compass.svg" alt="">
         <a href="" class="text-inactive">Explorer</a>
       </div>
-      <div class="flex items-center space-x-2 font-bold">
+      <div class="flex items-center space-x-2 font-bold menuitems">
         <img src="../assets/icons/radio.svg" alt="">
         <a href="" class="text-inactive">Radio</a>
       </div>
@@ -200,4 +200,12 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
 }
+.menuitems{
+  margin-left: 0;
+  transition: ease 250ms;
+}
+.menuitems:hover{
+  margin-left: 10px;
+}
+
 </style>

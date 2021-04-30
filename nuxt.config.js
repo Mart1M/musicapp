@@ -15,7 +15,18 @@ export default {
             {
                 rel: 'stylesheet',
                 href: 'https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap'
+            },
+            {
+                rel: 'stylesheet',
+                href: 'plyr/dist/plyr.css'
             }
+        ],
+        script: [
+            { src: '/music.js' },
+            {
+                src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+                type: "text/javascript"
+            },
         ]
     },
 
@@ -23,7 +34,9 @@ export default {
     css: [],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [],
+    plugins: [
+
+    ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,
