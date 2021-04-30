@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen overflow-x-hidden">
+  <div class="overflow-x-hidden">
     <div class="text-white hidden sm:flex flex-col w-2/12 fixed h-screen space-y-10 mt-40 px-8">
       <div class="flex items-center space-x-0.5 font-bold -m-1.5 ">
         <img src="../assets/icons/home.svg" alt="">
